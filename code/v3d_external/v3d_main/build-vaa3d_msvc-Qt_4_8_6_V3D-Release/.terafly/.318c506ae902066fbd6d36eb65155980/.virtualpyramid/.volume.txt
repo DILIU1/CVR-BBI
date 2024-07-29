@@ -1,0 +1,2 @@
+imagename=ZSeries-10282022-1658-3827_Cycle00001_Ch2_000001.ome.tif_import.tif_processed.v3draw
+format=Vaa3D raw

@@ -1,0 +1,2 @@
+imagename=00963_P011_T01-S002_STG-AP_R0368_WY-20220610_XJ.v3draw
+format=Vaa3D raw

@@ -1,0 +1,2 @@
+imagename=01147_P014_T01-S012_MFG_R0460_LJ-20220704_YXQ.v3draw
+format=Vaa3D raw

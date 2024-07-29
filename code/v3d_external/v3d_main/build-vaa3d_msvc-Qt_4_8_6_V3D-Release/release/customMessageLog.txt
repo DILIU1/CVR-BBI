@@ -1,0 +1,262 @@
+2024/06/25 20:52:01:Debug: "F:/git_all/v3d_external/v3d_main/build-vaa3d_msvc-Qt_4_8_6_V3D-Release" 
+2024/06/25 20:52:01:Debug: Cannot find ./plugins directory!
+2024/06/25 20:52:02:Debug: transparency true 
+2024/06/25 20:52:03:Debug: "F:/git_all/v3d_external/v3d_main/build-vaa3d_msvc-Qt_4_8_6_V3D-Release" 
+2024/06/25 20:52:07:Debug: -2-2-2 
+2024/06/25 20:52:07:Debug: -1-1-1 
+2024/06/25 20:52:07:Debug: "F:/git_all/v3d_external/v3d_main/build-vaa3d_msvc-Qt_4_8_6_V3D-Release/release" 
+2024/06/25 20:52:07:Debug: 22222 
+2024/06/25 20:52:07:Debug: 33333 
+2024/06/25 20:52:07:Debug: SYL TEST CViewer::CViewer 
+2024/06/25 20:52:07:Debug: MainWindow::createMdiChild *** workspace->windowList: () += XFormWidget(0x11c484a0430) 
+2024/06/25 20:52:07:Debug: XFormWidget::setCurrentFileName:  "ID(0), Res(256 x 256 x 104),Volume X=[1,256], Y=[1,256], Z=[1,104], T=[0,0], 1 channels" 
+2024/06/25 20:52:07:Debug: MainWindow newImageWindow:  "ID(0), Res(256 x 256 x 104),Volume X=[1,256], Y=[1,256], Z=[1,104], T=[0,0], 1 channels" 
+2024/06/25 20:52:07:Debug: V3d_PluginLoader newImageWindow:  XFormWidget(0x11c484a0430) 
+2024/06/25 20:52:07:Debug: V3d_PluginLoader setImage:  0x11c484a0430 0x11c3db5f610 
+2024/06/25 20:52:07:Debug: MainWindow setImage now:  XFormWidget(0x11c484a0430) 0x11c3db5f610 
+2024/06/25 20:52:07:Debug: ChannelTable::linkXFormWidgetChannel  CDim=1  
+2024/06/25 20:52:07:Debug: XFormWidget::setCurrentFileName:  "ID(0), Res(256 x 256 x 104),Volume X=[1,256], Y=[1,256], Z=[1,104], T=[0,0], 1 channels_processed" 
+2024/06/25 20:52:07:Debug: V3dR_MainWindow::V3dR_MainWindow =====================================
+2024/06/25 20:52:07:Debug: SYL TEST V3dR_MainWindow::changeEvent 21 
+2024/06/25 20:52:07:Debug: "3D View [ID(0), Res(256 x 256 x 104),Volume X=[1,256], Y=[1,256], Z=[1,104], T=[0,0], 1 channels_processed]" 
+2024/06/25 20:52:07:Debug: SYL TEST V3dR_MainWindow::changeEvent 33 
+2024/06/25 20:52:07:Debug: V3dR_GLWidget::V3dR_GLWidget ========================================
+2024/06/25 20:52:07:Debug: "ID(0), Res(256 x 256 x 104),Volume X=[1,256], Y=[1,256], Z=[1,104], T=[0,0], 1 channels_processed" 
+2024/06/25 20:52:07:Debug: V3dR_MainWindow::connectSignal with V3dR_GLWidget
+2024/06/25 20:52:07:Debug: SYL TEST V3dR_MainWindow::changeEvent 21 
+2024/06/25 20:52:07:Debug: V3d_PluginLoader getView3DControl =  0x11c481f9428  :  XFormWidget(0x11c484a0430) / 0x11c484a0430 
+2024/06/25 20:52:07:Debug: V3dR_GLWidget::initializeGL
+2024/06/25 20:52:07:Debug:    GLformat: (version = 0x1f07f) (samples double-buffer stereo plane overlay = 4 1 0 0 0)
+2024/06/25 20:52:07:Debug:    GLformat: (r g b a = 8 8 8 -1) + (depth stencil accum = 24 8 64)
+2024/06/25 20:52:07:Debug: V3dR_GLWidget::choiceRenderer
+2024/06/25 20:52:07:Debug:  Renderer::Renderer >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2024/06/25 20:52:07:Debug:   Renderer_gl1::Renderer_gl1
+2024/06/25 20:52:07:Debug:    Renderer_gl2::Renderer_gl2
+2024/06/25 20:52:07:Debug: V3dR_GLWidget::settingRenderer
+2024/06/25 20:52:07:Debug: V3dR_GLWidget::preparingRenderer
+2024/06/25 20:52:07:Debug:    Renderer_gl1::cleanData
+2024/06/25 20:52:07:Debug:   Renderer_gl1::setupData
+2024/06/25 20:52:07:Debug: 	Down-sampling to 512x512x256 
+2024/06/25 20:52:07:Debug:    data4dp = 0x11c406a9040 	(start 0x0x0_0_0, size 256x256x104_1_1)
+2024/06/25 20:52:07:Debug:    rgbaBuf = 0x11c5fc38040 	(256x256x104_1_1)
+2024/06/25 20:52:07:Debug:    data box in original image space @	(0 0 0)--(255 255 103)
+2024/06/25 20:52:07:Debug:    data4dp_to_rgba3d ............................................... cost time = 0.073 sec
+2024/06/25 20:52:07:Debug:    Renderer_gl2::initialize (2)
+2024/06/25 20:52:08:Debug:   Renderer_gl1::initialize (1)
+2024/06/25 20:52:08:Debug:  Renderer::initialize (0)
+2024/06/25 20:52:08:Debug:    Renderer_gl1::cleanObj
+2024/06/25 20:52:08:Debug:   Renderer_gl1::loadObj
+2024/06/25 20:52:08:Debug:    Renderer_gl1::cleanVol
+2024/06/25 20:52:08:Debug:     Renderer_gl2::cleanStreamBuffer
+2024/06/25 20:52:08:Debug:   Renderer_gl1::loadVol
+2024/06/25 20:52:08:Debug: "	ARB_texture_non_power_of_two           supported " 
+2024/06/25 20:52:08:Debug: "	ARB_texture_compression                supported " 
+2024/06/25 20:52:08:Debug: "	EXT_texture3D (or OpenGL 2.0)          supported " 
+2024/06/25 20:52:08:Debug: "	texture stream (need PBO and GLSL)     supported " 
+2024/06/25 20:52:08:Debug: "	GLSL (and OpenGL 2.0)                  supported " 
+2024/06/25 20:52:08:Debug:    setupStack start --- try (compress 3d npt stream shader = 1 0 0 0 1)
+2024/06/25 20:52:08:Debug:    sampleScale = 1x1x1   sampledImage = 256x256x104   fillTexture = 256x256x128
+2024/06/25 20:52:08:Debug: Renderer_gl1::loadVol() - creating data structures for managing 2D texture slice set
+ 
+2024/06/25 20:52:08:Debug:    setupStack: id & buffer ....................... cost time = 0.011 sec
+2024/06/25 20:52:08:Debug: Calling setupStackTexture() from Renderer_gl1::subloadTex() 
+2024/06/25 20:52:08:Debug: Renderer_gl2::setupStackTexture() start 
+2024/06/25 20:52:08:Debug: Renderer_gl1::setupStackTexture() start 
+2024/06/25 20:52:08:Debug: 	texture:   real = 256x256x104   fill = 256x256x128
+2024/06/25 20:52:08:Debug:    subloadTex [0]: (compress 3d npt stream shader = 1 0 0 0 1) ...... cost time = 0.839 sec
+2024/06/25 20:52:08:Debug: 	  tex_stream_buffer = false
+2024/06/25 20:52:08:Debug: 	BoundingBox surface (1 1 1)--(-1 -1 -1)
+2024/06/25 20:52:08:Debug: 	BoundingBox default (0 0 0)--(256 256 104)
+2024/06/25 20:52:08:Debug:     Renderer_gl2::cleanShader
+2024/06/25 20:52:08:Debug:    Renderer_gl2::loadShader
+2024/06/25 20:52:08:Debug: +++++++++ shader for Surface Object
+2024/06/25 20:52:08:Debug: Load shader:  ":/shader/obj_fragment.txt" 
+2024/06/25 20:52:08:Debug: Load shader:  ":/shader/lighting.txt" 
+2024/06/25 20:52:08:Debug: Load shader:  ":/shader/color_vertex.txt" 
+2024/06/25 20:52:08:Debug: Load shader:  ":/shader/lighting.txt" 
+2024/06/25 20:52:08:Debug: +++++++++ shader for Volume texture2D
+2024/06/25 20:52:08:Debug: Load shader:  ":/shader/tex_fragment.txt" 
+2024/06/25 20:52:08:Debug: +++++++++ shader for Volume texture3D
+2024/06/25 20:52:08:Debug: Load shader:  ":/shader/tex_fragment.txt" 
+2024/06/25 20:52:08:Debug: +++++++++ GLSL shader setup finished.
+2024/06/25 20:52:08:Debug:    Renderer_gl2::initColormap
+2024/06/25 20:52:08:Debug: ++++++++++++ customEvent:  4 
+2024/06/25 20:52:08:Debug: V3dR_GLWidget::customEvent( ? )
+2024/06/25 20:52:08:Debug: 	( QEvent_InitControlValue )
+2024/06/25 20:52:08:Debug: V3dR_MainWindow::initControlValue
+2024/06/25 20:52:08:Debug: 	GL texture compression supported, enable texture compression function
+2024/06/25 20:52:08:Debug: 	GL shading language supported, enable volume colormap function
+2024/06/25 20:52:08:Debug: SYL TEST V3dR_MainWindow::changeEvent 99 
+2024/06/25 20:52:08:Debug: "V3dR_MainWindow::changeEvent, ActivationChange-> 3D View [ID(0), Res(256 x 256 x 104),Volume X=[1,256], Y=[1,256], Z=[1,104], T=[0,0], 1 channels_processed]" 
+2024/06/25 20:52:08:Debug: glWidget->TeraflyCommunicator==0 
+2024/06/25 20:52:09:Debug: -------------------------------------------------------
+2024/06/25 20:52:09:Debug: -------------------------------------------------------
+2024/06/25 20:52:09:Debug: 	frontSlice:   real = 256^2   fill = 256^2
+2024/06/25 20:52:09:Debug: SYL TEST V3dR_MainWindow::changeEvent 99 
+2024/06/25 20:52:09:Debug: SYL TEST V3dR_MainWindow::changeEvent 99 
+2024/06/25 20:52:09:Debug: ++++++++++++ customEvent:  2 
+2024/06/25 20:52:09:Debug: V3dR_GLWidget::customEvent( ? )
+2024/06/25 20:52:09:Debug: 	( QEvent_OpenFiles )
+2024/06/25 20:52:09:Debug:    Renderer_gl1::loadObjectListFromFile
+2024/06/25 20:52:09:Debug: ++++++++++++ customEvent:  1 
+2024/06/25 20:52:09:Debug: V3dR_GLWidget::customEvent( ? )
+2024/06/25 20:52:09:Debug: 	( QEvent_Ready )
+2024/06/25 20:52:09:Debug: -------------------------------------------------------------- Ready
+2024/06/25 20:52:10:Debug: SYL TEST V3dR_MainWindow::changeEvent 99 
+2024/06/25 20:52:11:Debug: PMain::doTeraflyVRView() 
+2024/06/25 20:52:11:Debug: PMain hide 
+2024/06/25 20:52:11:Debug: SYL TEST V3dR_MainWindow::changeEvent 99 
+2024/06/25 20:52:11:Debug: SYL TEST V3dR_MainWindow::changeEvent 99 
+2024/06/25 20:52:11:Debug: startStandaloneVRScene-lddddddddddddd 
+2024/06/25 20:52:11:Debug: Failed to load DLL 
+2024/06/25 20:52:14:Debug: loadedNTList->size() 0   editableNTL size is 0  non editable NTL size is  0 
+2024/06/25 20:52:14:Debug: set up single 
+2024/06/25 20:52:14:Debug: Set up all NTs' VAO&VBO done 
+2024/06/25 20:52:14:Debug: old: center.x = 128.000000,center.y = 128.000000,center.z = 52.000000
+
+2024/06/25 20:52:14:Debug: 1 
+2024/06/25 20:52:14:Debug: current currentPath:  "F:/git_all/v3d_external/v3d_main/build-vaa3d_msvc-Qt_4_8_6_V3D-Release/release/materials/controller_texture3.png" 
+2024/06/25 20:52:15:Debug: g_texWidth = 2468, g_texHeight = 2740
+2024/06/25 20:52:15:Debug: Init! NOW listLandmarks.size is  0 
+2024/06/25 20:52:15:Debug: CollaborationCreatorPos: 0   0   0 
+2024/06/25 20:52:15:Debug: initdevice false 
+2024/06/25 20:52:15:Debug: InitAmp 
+2024/06/25 20:52:15:Debug: InitAmp:  false 
+2024/06/25 20:52:15:Debug: Failed to get function pointer 
+2024/06/25 20:52:15:Debug: result:  -1 
+2024/06/25 20:52:15:Debug: Failed to initialize EEG device. 
+2024/06/25 20:52:15:Debug: Failed to initialize the amplifier. 
+2024/06/25 20:52:15:Debug: eegDevice Initialization failed. Shutting down. 
+2024/06/25 20:52:19:Debug: eegDevice Initialization successful. 
+2024/06/25 20:52:19:Debug: typeNumber: 13
+2024/06/25 20:52:19:Debug: set up controllerray VAO  
+2024/06/25 20:52:19:Debug: set up image axes VAO  
+2024/06/25 20:52:19:Debug: 11 
+2024/06/25 20:52:24:Debug: panelpos_x = 0.282136 
+2024/06/25 20:52:24:Debug: panelpos_y = 0.467687 
+2024/06/25 20:52:24:Debug: false 
+2024/06/25 20:52:27:Debug: panelpos_x = 0.687833 
+2024/06/25 20:52:27:Debug: panelpos_y = 0.919388 
+2024/06/25 20:52:27:Debug: m_modeGrip_L: 14 
+2024/06/25 20:52:27:Debug: true 
+2024/06/25 20:52:31:Debug: panelpos_x = 0.680934 
+2024/06/25 20:52:31:Debug: panelpos_y = 0.859637 
+2024/06/25 20:52:31:Debug: m_modeGrip_L: 14 
+2024/06/25 20:52:31:Debug: true 
+2024/06/25 20:52:32:Debug: panelpos_x = 0.677131 
+2024/06/25 20:52:32:Debug: panelpos_y = 0.855882 
+2024/06/25 20:52:32:Debug: m_modeGrip_L: 14 
+2024/06/25 20:52:32:Debug: true 
+2024/06/25 20:52:36:Debug: panelpos_x = 0.5251 
+2024/06/25 20:52:36:Debug: panelpos_y = 0.903665 
+2024/06/25 20:52:36:Debug: m_modeGrip_L: 13 
+2024/06/25 20:52:36:Debug: timer: false 
+2024/06/25 20:52:36:Debug: true 
+2024/06/25 20:52:37:Debug: panelpos_x = 0.557527 
+2024/06/25 20:52:37:Debug: panelpos_y = 0.947287 
+2024/06/25 20:52:37:Debug: m_modeGrip_L: 13 
+2024/06/25 20:52:37:Debug: timer: false 
+2024/06/25 20:52:37:Debug: true 
+2024/06/25 20:52:38:Debug: panelpos_x = 0.556075 
+2024/06/25 20:52:38:Debug: panelpos_y = 0.953467 
+2024/06/25 20:52:38:Debug: m_modeGrip_L: 13 
+2024/06/25 20:52:38:Debug: timer: false 
+2024/06/25 20:52:38:Debug: true 
+2024/06/25 20:52:39:Debug: panelpos_x = 0.554879 
+2024/06/25 20:52:39:Debug: panelpos_y = 0.947274 
+2024/06/25 20:52:39:Debug: m_modeGrip_L: 13 
+2024/06/25 20:52:39:Debug: timer: false 
+2024/06/25 20:52:39:Debug: true 
+2024/06/25 20:52:40:Debug: panelpos_x = 0.671 
+2024/06/25 20:52:40:Debug: panelpos_y = 0.854706 
+2024/06/25 20:52:40:Debug: m_modeGrip_L: 14 
+2024/06/25 20:52:40:Debug: true 
+2024/06/25 20:52:41:Debug: panelpos_x = 0.67123 
+2024/06/25 20:52:41:Debug: panelpos_y = 0.87192 
+2024/06/25 20:52:41:Debug: m_modeGrip_L: 14 
+2024/06/25 20:52:41:Debug: true 
+2024/06/25 20:52:41:Debug: panelpos_x = 0.671824 
+2024/06/25 20:52:41:Debug: panelpos_y = 0.858816 
+2024/06/25 20:52:41:Debug: m_modeGrip_L: 14 
+2024/06/25 20:52:41:Debug: true 
+2024/06/25 20:52:47:Debug: panelpos_x = 0.544468 
+2024/06/25 20:52:47:Debug: panelpos_y = 0.895373 
+2024/06/25 20:52:47:Debug: m_modeGrip_L: 13 
+2024/06/25 20:52:47:Debug: timer: false 
+2024/06/25 20:52:47:Debug: true 
+2024/06/25 20:52:48:Debug: panelpos_x = 0.545048 
+2024/06/25 20:52:48:Debug: panelpos_y = 0.758193 
+2024/06/25 20:52:48:Debug: true 
+2024/06/25 20:52:49:Debug: panelpos_x = 0.69863 
+2024/06/25 20:52:49:Debug: panelpos_y = 0.691758 
+2024/06/25 20:52:49:Debug: true 
+2024/06/25 20:52:51:Debug: panelpos_x = 0.541765 
+2024/06/25 20:52:51:Debug: panelpos_y = 0.715753 
+2024/06/25 20:52:51:Debug: true 
+2024/06/25 20:52:51:Debug: panelpos_x = 0.545026 
+2024/06/25 20:52:51:Debug: panelpos_y = 0.693275 
+2024/06/25 20:52:51:Debug: true 
+2024/06/25 20:52:52:Debug: panelpos_x = 0.529818 
+2024/06/25 20:52:52:Debug: panelpos_y = 0.698139 
+2024/06/25 20:52:52:Debug: true 
+2024/06/25 20:52:53:Debug: panelpos_x = 0.53804 
+2024/06/25 20:52:53:Debug: panelpos_y = 0.710146 
+2024/06/25 20:52:53:Debug: true 
+2024/06/25 20:52:53:Debug: panelpos_x = 0.544583 
+2024/06/25 20:52:53:Debug: panelpos_y = 0.703656 
+2024/06/25 20:52:53:Debug: true 
+2024/06/25 20:52:54:Debug: panelpos_x = 0.546239 
+2024/06/25 20:52:54:Debug: panelpos_y = 0.722009 
+2024/06/25 20:52:54:Debug: true 
+2024/06/25 20:52:55:Debug: panelpos_x = 0.536158 
+2024/06/25 20:52:56:Debug: panelpos_y = 0.700203 
+2024/06/25 20:52:56:Debug: true 
+2024/06/25 20:52:57:Debug: panelpos_x = 0.543758 
+2024/06/25 20:52:57:Debug: panelpos_y = 0.888327 
+2024/06/25 20:52:57:Debug: m_modeGrip_L: 13 
+2024/06/25 20:52:57:Debug: timer: false 
+2024/06/25 20:52:57:Debug: true 
+2024/06/25 20:52:58:Debug: panelpos_x = 0.698833 
+2024/06/25 20:52:58:Debug: panelpos_y = 0.88506 
+2024/06/25 20:52:58:Debug: m_modeGrip_L: 14 
+2024/06/25 20:52:58:Debug: true 
+2024/06/25 20:52:59:Debug: panelpos_x = 0.709255 
+2024/06/25 20:52:59:Debug: panelpos_y = 0.585975 
+2024/06/25 20:52:59:Debug: true 
+2024/06/25 20:53:01:Debug: panelpos_x = 0.704328 
+2024/06/25 20:53:01:Debug: panelpos_y = 0.864015 
+2024/06/25 20:53:01:Debug: m_modeGrip_L: 14 
+2024/06/25 20:53:01:Debug: true 
+2024/06/25 20:53:07:Debug: end of runMainLoop 
+2024/06/25 20:53:07:Debug: link_map is created.
+2024/06/25 20:53:07:Debug: 	editableNeuron.seg.size = 0
+2024/06/25 20:53:07:Debug: -------------------------------------------------------
+2024/06/25 20:53:07:Debug: Start to delete sphere.... 
+2024/06/25 20:53:07:Debug: shut down sucess! 
+2024/06/25 20:53:07:Debug: SYL TEST V3dR_MainWindow::changeEvent 99 
+2024/06/25 20:53:07:Debug: result is  0 
+2024/06/25 20:53:07:Debug: xxxxxxxxxxxxx ==%1 y ==%2 z ==%3 0 0 0 
+2024/06/25 20:53:07:Debug: 	 number of markers = 0
+2024/06/25 20:53:07:Debug:   Renderer_gl1::updateTracedNeuron
+2024/06/25 20:53:07:Debug: -------------------------------------------------------
+2024/06/25 20:53:07:Debug: SYL TEST V3dR_MainWindow::changeEvent 99 
+2024/06/25 20:53:07:Debug: PMain show 
+2024/06/25 20:53:09:Debug: ***v3d: XFormWidget::closeEvent
+2024/06/25 20:53:09:Debug: SYL TEST V3dR_MainWindow::changeEvent 99 
+2024/06/25 20:53:09:Debug: V3dR_MainWindow::postClose
+2024/06/25 20:53:09:Debug: V3dR_MainWindow::closeEvent, glWidget = 0x11c481f9400
+2024/06/25 20:53:09:Debug:    Renderer_gl2::~Renderer_gl2
+2024/06/25 20:53:09:Debug:     Renderer_gl2::cleanShader
+2024/06/25 20:53:09:Debug:     Renderer_gl2::cleanStreamBuffer
+2024/06/25 20:53:09:Debug:   Renderer_gl1::~Renderer_gl1
+2024/06/25 20:53:09:Debug:    Renderer_gl1::cleanVol
+2024/06/25 20:53:09:Debug:    Renderer_gl1::cleanObj
+2024/06/25 20:53:09:Debug:    Renderer_gl1::cleanData
+2024/06/25 20:53:09:Debug:  Renderer::~Renderer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2024/06/25 20:53:09:Debug: close event over 
+2024/06/25 20:53:09:Debug: V3dR_MainWindow::closeEvent, glWidget = 0x11c481f9400
+2024/06/25 20:53:09:Debug: close event over 
+2024/07/19 15:45:50:Debug: "F:/git_all/v3d_external/v3d_main/build-vaa3d_msvc-Qt_4_8_6_V3D-Release" 
+2024/07/19 15:45:50:Debug: Cannot find ./plugins directory!
+2024/07/19 15:45:50:Debug: transparency true 
+2024/07/19 15:45:51:Warning: QObject::killTimers: timers cannot be stopped from another thread

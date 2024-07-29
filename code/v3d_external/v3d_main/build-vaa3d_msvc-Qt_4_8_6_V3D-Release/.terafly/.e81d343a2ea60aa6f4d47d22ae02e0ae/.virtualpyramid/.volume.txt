@@ -1,0 +1,2 @@
+imagename=01127_P010_T01-S009_TP_R0613_LJ-20220607_YXQ.v3draw
+format=Vaa3D raw
