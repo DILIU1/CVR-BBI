@@ -27,7 +27,7 @@ Clone the repository:
 git clone https://github.com/username/CVR-BBI.git
 
 Navigate to the project directory:
-cd CVR-BBI
+cd CVR-BBI/code
 
 Install the required packages:
 pip install -r requirements.txt
