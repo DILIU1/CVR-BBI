@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload and Analysis</title>
+    <style>
+        #sliderContainer {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Upload .npy File</h2>
+    <input type="file" id="fileInput" accept=".npy">
+    <button id="uploadButton" onclick="uploadFile()">Upload</button>
+    <button id="analyzeButton" onclick="analyzeData()" disabled>Analyze</button>
+    <div id="feedback" style="margin-top: 10px;"></div>
+    
+    <div id="sliderContainer">
+        <input type="range" id="rangeStart" name="rangeStart" min="0" max="5000" value="0" oninput="updateSliderValues()">
+        <input type="range" id="rangeEnd" name="rangeEnd" min="0" max="5000" value="5000" oninput="updateSliderValues()">
+    </div>
+    <div id="rangeValues">
+        <p>Start: <span id="startValue">0</span></p>
+        <p>End: <span id="endValue">5000</span></p>
+        <p>Chanel: <span id="Chanel">0</span></p>
+    </div>
+    <div id="downloadLink"></div>
+    <script src="{% static 'js/uploads.js' %}"></script>
+</body>
+</html>

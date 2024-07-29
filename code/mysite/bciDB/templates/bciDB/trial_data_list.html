@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trial Data List</title>
+</head>
+<body>
+    <h1>Trial Data List</h1>
+    <ul>
+        {% for item in data %}
+            <li>{{ item.subject }} - {{ item.date }} - {{ item.trialid }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
