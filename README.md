@@ -15,41 +15,40 @@ Release
 This directory contains stable release versions of the software for deployment.
 Documentation
 README.md: Provides an overview of the project, installation instructions, and other necessary documentation to get started with the CVR-BBI.
+
 Getting Started
 Prerequisites
 Python 3.8
 Django 3.x
 Other dependencies listed in requirements.txt
 Installation
+
 Clone the repository:
-
-
 git clone https://github.com/username/CVR-BBI.git
+
 Navigate to the project directory:
-
-
 cd CVR-BBI
-Install the required packages:
 
+Install the required packages:
 pip install -r requirements.txt
+
 Running the Application
 Navigate to the mysite directory:
-
-
 cd mysite
-Run the Django server:
 
+Run the Django server:
 python manage.py runserver
+
 Docker Deployment
 To deploy using Docker, follow these steps:
 
 Build the Docker image:
-
 docker build -t mysite .
-Run the container:
-arduino
 
+Run the container:
 docker run -d -p 8000:8000 mysite
+
+
 Contributing
 Contributions to the CVR-BBI project are welcome. Please refer to our contributing guidelines for more information on how to participate.
 
