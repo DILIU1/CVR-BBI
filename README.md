@@ -18,8 +18,8 @@ README.md: Provides an overview of the project, installation instructions, and o
 
 Getting Started
 Prerequisites
-Python 3.8
-Django 3.x
+Python 3.11.3
+Django 4.2.11
 Other dependencies listed in requirements.txt
 Installation
 
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 Running the Application
 Navigate to the mysite directory:
-cd mysite
+cd ./code/mysite
 
 Run the Django server:
 python manage.py runserver
