@@ -62,14 +62,14 @@ Navigate to the application directory(CVR-BBI/code/v3d_external),Configure accor
 ### **Prerequisites**
 - **QT** `4.8.6`
 - **OPENVR** ``
-### **Contributing**
+## **Contributing**
 
 We warmly welcome contributions to the CVR-BBI project. For more information on how to contribute, please refer to our contributing guidelines.
 
-### **License**
+## **License**
 
 This project is licensed under the MIT License. 
 Please note that this project uses various dependencies, each with its own licensing terms.see the [LICENSE](https://github.com/Vaa3D/Vaa3D_Wiki/wiki/LicenseAndAgreement.wiki) file for details.
 
-### **Contact**
+## **Contact**
 For any queries regarding the project, please feel free to contact us at di.liu@seu.edu.cn.
